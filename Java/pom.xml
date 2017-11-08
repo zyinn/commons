@@ -16,7 +16,7 @@
     <repositories>
         <repository>
             <id>optimus center</id>
-            <url>http://172.16.87.5:8081/content/groups/public</url>
+            <url>http://localhost:8081/content/groups/public</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -41,7 +41,7 @@
                 <snapshotRepository>
                     <id>nexus-snapshots</id>
                     <name>Project SNAPSHOTS</name>
-                    <url>http://172.16.87.5:8081/content/repositories/snapshots/</url>
+                    <url>http://localhost:8081/content/repositories/snapshots/</url>
                 </snapshotRepository>
             </distributionManagement>
         </profile>
@@ -52,7 +52,7 @@
                 <repository>
                     <id>nexus-releases</id>
                     <name>Project Release</name>
-                    <url>http://172.16.87.5:8081/content/repositories/releases/</url>
+                    <url>http://localhost:8081/content/repositories/releases/</url>
                 </repository>
             </distributionManagement>
         </profile>
